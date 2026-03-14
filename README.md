@@ -1,9 +1,9 @@
-🌐 LAB AZ-204 — Projeto Completo: "EventHub Ordena Plataforma"
+# 🌐 LAB AZ-204 — Projeto Completo: "EventHub Ordena Plataforma"
 
 
-🎯 Objetivo do projeto
+## 🎯 Objetivo do projeto
 
-Criar uma solução moderna no Azure que:
+### Criar uma solução moderna no Azure que:
 
 * Recebe pedidos via API (Azure App Service)
 
@@ -19,9 +19,9 @@ Criar uma solução moderna no Azure que:
 
 * Monitora tudo (Application Insights)
 
-🧩 Módulo 1 — Criar e publicar uma imagem de contêiner
+## 🧩 Módulo 1 — Criar e publicar uma imagem de contêiner
 
-Habilidades treinadas:
+### Habilidades treinadas:
 
 * Criar e gerenciar imagens
 
@@ -29,7 +29,7 @@ Habilidades treinadas:
 
 * Executar no Azure Container Apps
 
-🔧 Passos:
+### 🔧 Passos:
 
 1. Crie um app simples em Node.js ou .NET que expõe /health e /orders.
 
@@ -51,13 +51,15 @@ docker push meuacr204.azurecr.io/orders-api:v1
 5. Crie um Container App usando essa imagem.
 
 
-🧩 Módulo 2 — Criar um Azure App Service Web App
-Habilidades treinadas:
-Criar Web App
+# 🧩 Módulo 2 — Criar um Azure App Service Web App
 
-Configurar TLS, configurações, logs
+## Habilidades treinadas:
 
-Implantar contínuo
+* Criar Web App
+
+* Configurar TLS, configurações, logs
+
+* Implantar contínuo
 
 🔧 Passos:
 
@@ -78,9 +80,9 @@ az webapp log config -n orders-webapp -g rg-az204 --application-logging filesyst
 4. Crie um slot de staging e faça swap.
 
 
-🧩 Módulo 3 — Criar Azure Functions com triggers
+# 🧩 Módulo 3 — Criar Azure Functions com triggers
 
-Habilidades treinadas:
+## Habilidades treinadas:
 
 * Gatilhos (HTTP, Temporizador, Blob, Grade de Eventos)
 
@@ -98,9 +100,10 @@ Habilidades treinadas:
 
 * Uma função Timer para limpeza diária
 
-🧩 Módulo 4 — Trabalhar com Azure Storage
 
-Habilidades treinadas:
+# 🧩 Módulo 4 — Trabalhar com Azure Storage
+
+## Habilidades treinadas:
 
 * Armazenamento de Blob
 
@@ -122,9 +125,10 @@ blobClient.SetMetadata(new Dictionary<string,string>{{"orderId","123"}});
 
 4. Configure política de lifecycle para mover blobs antigos para Cool/Archive.
 
-🧩 Módulo 5 — Trabalhar com Azure Cosmos DB
 
-Habilidades treinadas:
+# 🧩 Módulo 5 — Trabalhar com Azure Cosmos DB
+
+## Habilidades treinadas:
 
 * CRUD via SDK
 
@@ -142,9 +146,10 @@ Habilidades treinadas:
 
 4. Crie uma Função com trigger de Change Feed para processar novos pedidos.
 
-🧩 Módulo 6 — Implementar Segurança
 
-Habilidades treinadas:
+# 🧩 Módulo 6 — Implementar Segurança
+
+## Habilidades treinadas:
 
 * Identidade Gerenciada
 
@@ -164,9 +169,9 @@ Habilidades treinadas:
 
 4. Gere um SAS Token para acesso temporário ao Blob Storage.
 
-🧩 Módulo 7 — Monitoramento e Diagnóstico
+# 🧩 Módulo 7 — Monitoramento e Diagnóstico
 
-Habilidades treinadas:
+## Habilidades treinadas:
 
 * Insights sobre Aplicação
 
@@ -192,9 +197,10 @@ telemetry.TrackEvent("OrderReceived");
 
 * Falhas em Funções
 
-🧩 Módulo 8 — API Management
 
-Habilidades treinadas:
+# 🧩 Módulo 8 — API Management
+
+## Habilidades treinadas:
 
 * Criar instância
 
@@ -216,9 +222,10 @@ Habilidades treinadas:
 
 * Validar o JWT
 
-🧩 Módulo 9 — Event Grid, Event Hubs e Service Bus
 
-Habilidades treinadas:
+# 🧩 Módulo 9 — Event Grid, Event Hubs e Service Bus
+
+## Habilidades treinadas:
 
 * Soluções baseadas em eventos
 
@@ -237,9 +244,9 @@ Habilidades treinadas:
 5. Crie uma Function com trigger Service Bus.
 
 
-🧩 Módulo 10 — Integração Final
+# 🧩 Módulo 10 — Integração Final
 
-Monte o fluxo completo:
+## Monte o fluxo completo:
 
 1. Web App recebe pedido
 
